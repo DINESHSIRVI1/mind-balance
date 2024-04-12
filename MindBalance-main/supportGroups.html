@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mind Balance - Support Groups</title>
+    <style>
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff; /* Light blue background */
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        
+        
+        .section-header h2 {
+  animation: color-animation 4s linear infinite;
+}
+.title-word {
+  animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+  --color-1: #DF8453;
+  --color-2: #3D8DAE;
+  --color-3: #E4A9A8;
+}
+
+.title-word-2 {
+  --color-1: #DBAD4A;
+  --color-2: #ACCFCB;
+  --color-3: #17494D;
+}
+
+.title-word-3 {
+  --color-1: #ACCFCB;
+  --color-2: #E4A9A8;
+  --color-3: #ACCFCB;
+}
+
+.title-word-4 {
+  --color-1: #3D8DAE;
+  --color-2: #DF8453;
+  --color-3: #E4A9A8;
+}
+
+@keyframes color-animation {
+  0%    {color: var(--color-1)}
+  32%   {color: var(--color-1)}
+  33%   {color: var(--color-2)}
+  65%   {color: var(--color-2)}
+  66%   {color: var(--color-3)}
+  99%   {color: var(--color-3)}
+  100%  {color: var(--color-1)}
+}
+
+/* Here are just some visual styles. 🖌 */
+
+.container {
+  display: grid;
+  place-items: center;  
+  text-align: center;
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 8.5vw;
+  text-transform: uppercase;
+}
+
+
+        .support-group {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+            transition: transform 0.3s;
+            cursor: pointer;
+        }
+
+        .support-group:hover {
+            transform: translateY(-5px); /* Move up on hover */
+        }
+
+        .support-group h3 {
+            margin-top: 0;
+        }
+
+        .support-group p {
+            margin-bottom: 10px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="section-header">
+            <div class="container">
+                <h2 class="title">
+                  <span class="title-word title-word-1">Support</span>
+                  <span class="title-word title-word-2">Group</span>
+            
+                </h2>
+              </div>
+              
+        </div>
+        <div class="support-group">
+            <h3>Anxiety Support Group</h3>
+            <p>A safe space for individuals struggling with anxiety to share experiences and coping strategies.</p>
+        </div>
+        <div class="support-group">
+            <h3>Depression Support Group</h3>
+            <p>Join us for discussions and support for those dealing with depression.</p>
+        </div>
+    </div>
+</body>
+</html>

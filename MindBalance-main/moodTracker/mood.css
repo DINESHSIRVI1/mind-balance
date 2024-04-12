@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+#mood-container {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.mood-options {
+    display: flex;
+    justify-content: center;
+}
+
+.mood {
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+#happy {
+    background-color: #FFD700;
+}
+
+#neutral {
+    background-color: #808080;
+}
+
+#sad {
+    background-color: #4169E1;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
